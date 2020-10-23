@@ -2,7 +2,9 @@
 ### Author: Adrian Żelazek
 
 In this project was used dataset concerning Titanic passengers. The dataset contains 891 observations as well as 12 variables. The target of the project is to build and select the best model that anticipates the death or survival of the Titanic passenger based on available passengers information using Logistic Regression, Decision Tree, Random Forest and KNN. 
+
 The project includes Exploratory Data Analysis, grouping, visualization, splitting the training and testing data, Predictions as well as Model Evaluation. Furthermore, two models: Decision Tree and Random Forest have been modified by tuning of hyperparameters by GridSearchCV method. Models were evaluated by using indicators: Accuracy, Recall, Precision, F1, AUC. Moreover, Decision Tree after tuning of hyperparameters was also graphically evaluated by: Precision-recall curve, Accumulated profit curve, Lift curve, Forecasting error of classes and ROC curve. Furthermore, results of training and test datasets were compared with each other to exclude possible of overfitting. 
+
 This project was developed for the purpose of practicing machine learning technology and data mining in Python. Furthermore, project was developed to train tuning of hyperparameters and visualization methods of classification model evaluation like: Precision-recall curve, Accumulated profit curve, Lift curve, Forecasting error of classes and ROC curve.
 ##### It is preferred to run/view the project via Jupyter Notebook (.ipynb) than via a browser (HTML). To see the HTML version you first need to download the HTML file and then run it in your browser.
 
